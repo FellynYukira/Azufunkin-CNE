@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="80" y="60" camx="-20" camy="20" scale="0.9" color="#E4A4C4">
+	<anim x="0" loop="false" y="0" fps="24" anim="osakalt idle" name="idle"/>
+	<anim x="74" loop="false" y="-46" fps="24" anim="osakalt down" name="singDOWN"/>
+	<anim x="24" loop="false" y="14" fps="24" anim="osakalt up" name="singUP"/>
+	<anim x="-6" loop="false" y="-12" fps="24" anim="osakalt right" name="singRIGHT"/>
+	<anim x="51" loop="false" y="-27" fps="24" anim="osakalt left" name="singLEFT"/>
+</character>

@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="classroom" folder="stages/classroom/">
+    <sprite name="bg" x="-958" y="-95" sprite="bg" scale="1.35"/>
+    <sprite name="chichi" x="-115" y="26" sprite="chichispeaker" scale="0.55" type="onbeat"/>
+
+	<girlfriend x="285" y ="-20" scroll="1"/>
+	<dad x="-578" y="36"/>
+	<boyfriend x="100" y ="0"/>
+
+    <ratings x="-100" y="450"/>
+
+    <sprite name="desks" x="-1175" y="-86" sprite="desks" scroll="1.35" scale="1.35"/>
+
+    <sprite name="bg1" x="-1230" y="204" sprite="bg1" scroll="1.4" scale="1.4" type="onbeat" beatInterval="2"/>
+    <sprite name="bg2" x="-1423" y="-550" sprite="bg2" scroll="1.45" scale="1.35" type="onbeat" beatInterval="2"/>
+    <sprite name="bg3" x="210" y="460" sprite="bg3" scroll="1.5" scale="1.35" type="onbeat" beatInterval="2"/>
+</stage>
