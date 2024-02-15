@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1.02" name="kimura-class" folder="stages/kimura-class/">
+    <sprite name="bgkimura" x="330" y="75" scroll="0" scale="1.7" sprite="bgkimura"/>
+	<dad x="520" y="121" scroll="0"/>
+
+    <sprite name="bgkaorin" x="339" y="100" scroll="0" scale="1.6" sprite="bgkaorin"/>
+	<boyfriend x="240" y ="100" scroll="0"/>
+
+    <ratings x="-60" y="450" scroll="0"/>
+
+    <sprite name="theborder" x="212" y="125" scroll="0" scale="1.52" sprite="theborder"/>
+</stage>

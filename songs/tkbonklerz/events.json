@@ -2,6 +2,12 @@
 	"events": {
 		"events": [
 			[
+				4,
+				-50000,
+				0,
+				"gamealpha;0"
+			],
+			[
 				12,
 				21333.3333333333,
 				0,
@@ -59,7 +65,7 @@
 				20,
 				36444.4444444444,
 				1,
-				"disappear;kag"
+				"disappear;kracgura"
 			],
 			[
 				37,
@@ -605,7 +611,7 @@
 				135,
 				240000,
 				2,
-				"appear;kag"
+				"appear;kracgura"
 			],
 			[
 				150,

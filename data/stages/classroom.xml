@@ -3,6 +3,8 @@
     <sprite name="bg" x="-958" y="-95" sprite="bg" scale="1.35"/>
     <sprite name="chichi" x="-115" y="26" sprite="chichispeaker" scale="0.55" type="onbeat"/>
 
+    <sprite name="bgyukari" x="-870" y="-100" sprite="bgyukari" scale="0.9" type="onbeat" beatInterval="2"/>
+
 	<girlfriend x="285" y ="-20" scroll="1"/>
 	<dad x="-578" y="36"/>
 	<boyfriend x="100" y ="0"/>
