@@ -1,5 +1,11 @@
+import flixel.FlxCamera;
+import flixel.FlxCameraFollowStyle;
+
 var cammove = 10;
-var speed = 1.5;
+
+function postCreate() {
+    FlxG.camera.follow(camFollow, FlxCameraFollowStyle.LOCKON, 0.06);
+}
 
 function postUpdate(elapsed:Float) {
     switch(strumLines.members[curCameraTarget].characters[0].getAnimName()) {
@@ -12,5 +18,4 @@ function postUpdate(elapsed:Float) {
         case "singRIGHT" | "singRIGHT-alt": 
             camFollow.x += cammove;
     }
-    FlxG.camera.followLerp = FlxMath.bound(elapsed * 2.4 * speed / (FlxG.updateFramerate / 60), 0, 1);
 }

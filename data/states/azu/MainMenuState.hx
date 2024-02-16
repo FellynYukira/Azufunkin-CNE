@@ -7,7 +7,6 @@ import funkin.menus.FreeplayState;
 import funkin.options.OptionsMenu;
 import flixel.effects.FlxFlicker;
 import funkin.editors.EditorPicker;
-import funkin.backend.MusicBeatState;
 
 var curSelected:Int = 0;
 var optionMoment = ['freeplay', 'options', 'credits', 'discord'];
@@ -102,10 +101,7 @@ function selectItem() {
             switch (daChoice) {
                 case 'freeplay': FlxG.switchState(new FreeplayState());
                 case 'options': FlxG.switchState(new OptionsMenu());
-                case 'credits': FlxG.switchState(new MusicBeatState(true, 'azu/CreditsState'));
-                default:
-                    FlxG.sound.play(Paths.sound('menu/cancel'));
-                    selectedSomethin = false;
+                case 'credits': FlxG.switchState(new ModState('azu/CreditsState'));
             }
         });
     }
