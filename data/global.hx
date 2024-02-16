@@ -1,6 +1,6 @@
 static var redirectStates:Map<FlxState, String> = [
-    TitleState => "customStates/AzuTitleState",
-    MainMenuState => "customStates/AzuMainMenuState"
+    TitleState => "azu/TitleState",
+    MainMenuState => "azu/MainMenuState"
 ];
 
 function update() if (FlxG.keys.justPressed.F5) FlxG.resetState();

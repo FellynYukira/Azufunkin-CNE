@@ -102,7 +102,7 @@ function selectItem() {
             switch (daChoice) {
                 case 'freeplay': FlxG.switchState(new FreeplayState());
                 case 'options': FlxG.switchState(new OptionsMenu());
-                case 'credits': FlxG.switchState(new MusicBeatState(true, 'customStates/AzuCreditsState'));
+                case 'credits': FlxG.switchState(new MusicBeatState(true, 'azu/CreditsState'));
                 default:
                     FlxG.sound.play(Paths.sound('menu/cancel'));
                     selectedSomethin = false;
